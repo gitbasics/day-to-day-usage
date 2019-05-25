@@ -1,8 +1,13 @@
 # Git day to day usage  
+---
 
 ### Here are some commands you would use on a daily basis:
 * git clone
+  * Create a local copy of a remote repository
+* git add _changed-files_
+  * Adds specified files to the staging area in your repo 
 * git commit
+  * Creates a new commit in your local repository from the changes in your staging area
 * git status
   * This will show you what, if anything, has changed in your working tree
   * Additional common options:
