@@ -6,7 +6,11 @@
 1. First things first is configuring your local git install. Likely it only configured very minimal settings if any when you installed it.
   * git config --global user.name "_first_name last_name_"
     * This will set the name associated with any commits you create.
-  * git config --global user.email "your_email"
+  * git config --global user.email "_your_email_"
     * This will set the email associated with any commits you create.
   * git config --global core.editor "_editor_"
     * This will set the editor used when running commands such as _git commit_
+2. Now that we've configured our git installs, let's create a local repository.
+  * git init _repo_name_
+    * This will create a repository with the name you specify. Try to use a name that is intuitive as to what the code does.
+3.
